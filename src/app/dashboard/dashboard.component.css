@@ -12,3 +12,6 @@ p {
 :host ::ng-deep .p-dialog .p-button {
     min-width: 6rem;
 }
+.verifylabel{
+    color: #495057;
+}

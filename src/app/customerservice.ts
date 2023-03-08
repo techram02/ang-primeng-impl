@@ -12,4 +12,10 @@ export class CustomerService {
             .then(res => <Customer[]>res.data)
             .then(data => { return data; });
     }
+    getCustomersLarge1() {
+        return this.http.get<any>('assets/customers-large1.json')
+            .toPromise()
+            .then(res => <Customer[]>res.data)
+            .then(data => { return data; });
+    }
 }

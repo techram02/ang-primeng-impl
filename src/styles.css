@@ -445,3 +445,45 @@ display: flex;
     align-items: center;
   height: 35px;
 }
+
+.p-datepicker {
+
+    background: #fff !important;
+}
+.cancelbtn .p-button{
+    background: #e95252 !important;
+    border-color: #e95252 !important;
+}
+
+.verifylabel{
+    color: #495057;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+.p-datatable .p-datatable-tbody > tr{
+    background:none !important;
+}
+.p-paginator{
+    background:none !important; 
+}
+.p-datatable{
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgb(100 100 100 / 10%);
+
+}
+.p-datatable .p-datatable-thead > tr > th{
+    padding: 0.5rem 1rem !important; 
+}
+.p-datatable .p-paginator-bottom{
+    border-width: 0px !important;
+}
+.pthaed{
+    background: #004989 !important;
+    color: white !important;
+}
+.borderthead1{
+    border-radius: 10px 0px 0px 0px;
+}
+.borderthead2{
+    border-radius: 0px 10px 0px 0px;
+}

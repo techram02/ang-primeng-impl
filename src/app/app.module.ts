@@ -9,14 +9,14 @@ import { SimplebarAngularModule } from 'simplebar-angular';
 import { HeaderComponent } from './header/header.component';
 import { TabViewModule } from 'primeng/tabview';
 import { CalendarModule } from 'primeng/calendar';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { DropdownModule } from 'primeng/dropdown';
 import { ButtonModule } from 'primeng/button';
 import { RippleModule } from 'primeng/ripple';
 import { DialogModule } from 'primeng/dialog';
 import { HttpClientModule } from '@angular/common/http';
 import { CustomerService } from './customerservice';
-
+import { CheckboxModule } from 'primeng/checkbox';
 import {TableModule} from 'primeng/table';
 import {ToastModule} from 'primeng/toast';
 import {SliderModule} from 'primeng/slider';
@@ -49,9 +49,10 @@ import {InputTextModule} from 'primeng/inputtext';
     SliderModule,
     MultiSelectModule,
     ContextMenuModule,
+    CheckboxModule,
     ProgressBarModule,
-    InputTextModule
-
+    InputTextModule,
+    ReactiveFormsModule
   ],
   providers: [CustomerService],
   bootstrap: [AppComponent]
