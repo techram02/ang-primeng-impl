@@ -1,0 +1,447 @@
+
+@import "~font-awesome/css/font-awesome.css";
+@import"bootstrap/dist/css/bootstrap.min.css";
+/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Lato', sans-serif;
+    background:#f8f8f8 !important;
+}
+
+
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    padding-top: 13px !important;
+    background: #fff;
+    border: none;
+    border-radius: 10px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 10px !important;
+ 
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 16px #0049890a;
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 270px;
+background: #fff !important;
+    z-index: 999;
+    color: #8E8989;
+    transition: all 0.3s;
+ 
+}
+
+#sidebar2 {
+    width: 270px;
+ 
+/* padding: 18px; */
+    height: 100vh;
+overflow: auto;
+background: #fff !important;
+    z-index: 999;
+    color: #8E8989;
+    transition: all 0.3s;
+ 
+}
+.p-datepicker {
+ border: 0px solid #ced4da !important;
+  background: transparent !important;
+   
+    
+}
+.sideimage{
+    position: relative;
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    display: flex;
+    left: 0;
+width: 100%;
+    height: 100%;
+    background: rgba(149, 57, 148, 0.62);
+    color: #ffffff;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    padding-left: 12px;
+  }
+  .companyhtxt{
+      font-weight: 600;
+  }
+  .companyptxt{
+    font-size: 14px;
+}
+#container svg{
+    width: 100% !important;
+}
+#container{
+    width: 100% !important;
+  
+}
+#container div{
+    width: 100% !important;
+}
+#container2 svg{
+    width: 100% !important;
+}
+#container2{
+    width: 100% !important;
+   }
+#container2 div{
+    width: 100% !important;
+}
+text.highcharts-credits {
+    display: none !important;
+}
+.p-calendar{
+    width: 100%;
+}
+p-chart canvas{
+
+}
+.headtxt{
+    font-size: 16px;
+    font-weight: 700;
+    color: #004989;
+    margin-left: 10px;
+}
+.calback{
+    box-shadow: 0 2px 16px #ce71c61a;
+    background-color: #fff;
+    border-radius: 15px !important;
+}
+.p-datepicker .p-datepicker-header .p-datepicker-prev:focus, .p-datepicker .p-datepicker-header .p-datepicker-next:focus{
+    box-shadow: 0 2px 16px #00498926 !important;
+}
+.p-datepicker .p-datepicker-header .p-datepicker-prev, .p-datepicker .p-datepicker-header .p-datepicker-next{
+    box-shadow: 0 2px 16px #00498926;
+}
+.p-datepicker .p-datepicker-header .p-datepicker-prev:enabled:hover, .p-datepicker .p-datepicker-header .p-datepicker-next:enabled:hover {
+background: #ffffff !important;
+}
+.p-datepicker table td.p-datepicker-today > span.p-highlight {
+    color: #ffffff !important;
+    background: #953994 !important;
+}
+.p-datepicker table td > span:focus {
+box-shadow: none !important;
+}
+.p-datepicker:not(.p-disabled) table td span:not(.p-highlight):not(.p-disabled):hover {
+    background: #ffefff !important;
+}
+.sidemenutxt i {
+    font-size: 22px;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+.helpicon{
+    padding: 10px 20px !important;
+    background: #f0f8ff;
+    border-radius: 8px;
+    color: #004989 !important;
+    position: relative;
+}
+.nav-link .badge {
+    position: absolute;
+    top: 4px;
+    right: 9px;
+    padding: 0.2rem 0.2rem;
+    min-width: 1rem;
+    font-size: 9px;
+    border-radius: 50%;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #004989 !important;
+    font-weight: 500;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+li.nav-item {
+    margin-right: 10px;
+}
+.badge-danger {
+    color: #ffffff !important;
+    background-color: #953994 !important;
+}
+a.sidemenutxt {
+    display: flex !important;
+    align-items: center;
+ height: 48px;
+    position: relative;
+    color: #9a9797;
+}
+a.sidemenutxt:hover {
+text-decoration: none;
+  
+}
+#sidebar.active ul li a:hover {
+    color: #953994 !important;
+
+}
+#sidebar.active {
+    margin-left: -290px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+#sidebar ul.components {
+    padding: 25px;
+    background: #ffffff;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+#sidebar ul li {
+margin-bottom: 7px;
+}
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#sidebar ul li a:hover {
+    color: #787878 !important;
+  
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #ffffff !important;
+    background: #004989;
+  
+    border-radius: 10px;
+}
+
+button#sidebarCollapse {
+    width: 56px;
+    height: 42px;
+    background: #f0f8ff;
+    margin-top: -6px;
+    border: 0px solid;
+    color: #004989;
+    font-size: 22px;
+
+}
+button#sidebarCollapse:focus {
+  box-shadow: none !important ;
+}
+/* #sidebar ul li.active>.sidemenutxt:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 33px;
+    background-color: #e69ae5;
+    background-repeat: no-repeat;
+    height: 28px;
+    border-radius: 0px 12px 0px 40px;
+    vertical-align: middle;
+    top: 0px;
+    right: 0px;
+} */
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: calc(100% - 270px);
+    padding: 25px;
+    min-height: 100vh;
+    transition: all 0.3s;
+  top: 0px;
+    right: 0;
+}
+
+#content.active {
+    width: 100%;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #content {
+        width: 100%;
+    }
+    #content.active {
+        width: calc(100% - 250px);
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
+.p-datepicker table td {
+     padding: 0px !important;
+}
+
+.p-tabview .p-tabview-nav{
+    background: none !important;
+}
+.p-tabview .p-tabview-panels{
+    background: none !important;
+}
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link{
+    background: none !important;
+    color: none !important;
+ 
+   
+}
+.p-tabview .p-tabview-nav {
+    border: 1px solid #f3f3f3 !important;
+}
+.p-tabview-nav-link:focus{
+    box-shadow:none !important
+}
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link span{
+    background: #f0f8ff;
+    color: #004989;
+  border-radius: 10px;
+  font-weight: bold;
+
+}
+
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link{
+    padding: 7px 10px !important;
+    background: none !important;
+         border: 0px solid #dee2e6 !important;
+  
+}
+.p-tabview.p-component {
+    border-radius: 10px !important;
+    background: #fff;
+    box-shadow: 0 2px 16px #0049890a;
+}
+.p-tabview-title {
+padding: 15px;
+}
+.p-calendar .p-datepicker {
+    min-width: 100%;
+    background: #fff !important;
+}
+.p-button {
+background: #004989 !important;
+    border: 1px solid #004989 !important;
+}
+.p-calendar-w-btn .p-inputtext{
+    height: 35px;
+}
+button.p-element {
+    height: 35px;
+}
+
+.p-dropdown.p-dropdown-clearable .p-dropdown-label {
+ display: flex;
+    align-items: center;
+}
+.p-dropdown.p-component.p-dropdown-clearable {
+    height: 35px;
+}
+.rowbtm{
+    margin-bottom: 20px;
+}
+
+.p-datatable .p-datatable-header{
+    background: none !important;
+border: none !important;
+display: flex;
+    justify-content: flex-end;
+}
+
+.p-inputtext, .p-multiselect {
+    display: flex;
+    align-items: center;
+  height: 35px;
+}

@@ -1,0 +1,52 @@
+
+
+.global-container{
+	height:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    margin-top: 10%;
+	background-color:#f8f8f8 ;
+}
+.signbtn{
+    background: #004989 !important;
+    border-color: #004989 !important;
+}
+form{
+	padding-top: 10px;
+	font-size: 14px;
+}
+.logodiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-title{ font-weight:300; }
+
+.btn{
+    width: 100%;
+	font-size: 14px;
+	margin-top:20px;
+}
+
+
+.login-form{ 
+    width: 370px;
+	margin:20px;
+}
+label{
+    margin-top:10px
+}
+.form-group{
+    margin-top:10px
+}
+.sign-up{
+	text-align:center;
+	padding:20px 0 0;
+}
+
+.alert{
+	margin-bottom:-30px;
+	font-size: 13px;
+	margin-top:20px;
+}
